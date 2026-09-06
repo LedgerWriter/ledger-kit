@@ -1,6 +1,6 @@
 # ledger-kit
 
-Accounting/finance helpers for [`tiny-cqrs`](https://github.com/mnhpub/tiny-cqrs): double-entry
+Accounting/finance helpers for [`tiny-cqrs`](https://github.com/LedgerWriter/tiny-cqrs): double-entry
 invariants, decimal-safe amounts, and an audit-log projection helper. This is the first "flavor"
 package built on `tiny-cqrs` — it's an ordinary consumer of the core library, not a plugin; a
 `construction-kit` or `media-kit` would follow the exact same pattern with no changes to

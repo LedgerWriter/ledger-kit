@@ -1,7 +1,7 @@
 # Contributing to ledger-kit
 
 Thanks for considering a contribution. `ledger-kit` is the accounting/finance "flavor" package for
-[`tiny-cqrs`](https://github.com/mnhpub/tiny-cqrs) — an ordinary consumer of that library, not a
+[`tiny-cqrs`](https://github.com/LedgerWriter/tiny-cqrs) — an ordinary consumer of that library, not a
 fork or extension of it. Generic CQRS/event-sourcing behavior belongs in `tiny-cqrs`, not here;
 this repo stays scoped to accounting-domain helpers (amounts, double-entry, ledger projections).
 
@@ -31,7 +31,7 @@ is — it belongs in `tiny-cqrs` instead.
 
 ## Reporting a security issue
 
-Please use [GitHub's private vulnerability reporting](https://github.com/mnhpub/ledger-kit/security/advisories/new)
+Please use [GitHub's private vulnerability reporting](https://github.com/LedgerWriter/ledger-kit/security/advisories/new)
 rather than a public issue.
 
 ## License
