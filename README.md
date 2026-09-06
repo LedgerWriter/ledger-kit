@@ -16,7 +16,7 @@ ordinary package depending on `tiny-cqrs`.
 ## Install
 
 ```
-npm install tiny-cqrs ledger-kit
+npm install tiny-cqrs @ledgerwriter/ledger-kit
 ```
 
 ## What's in here
