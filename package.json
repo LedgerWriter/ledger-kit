@@ -21,7 +21,7 @@
     "prepublishOnly": "bun run typecheck && bun run test && bun run build"
   },
   "dependencies": {
-    "tiny-cqrs": "^0.3.0"
+    "tiny-cqrs": "^0.4.0"
   },
   "devDependencies": {
     "typescript": "^5.7.3",
