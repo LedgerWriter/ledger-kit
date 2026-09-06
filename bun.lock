@@ -5,7 +5,7 @@
     "": {
       "name": "ledger-kit",
       "dependencies": {
-        "tiny-cqrs": "https://github.com/LedgerWriter/tiny-cqrs/archive/refs/tags/v0.2.0.tar.gz",
+        "tiny-cqrs": "^0.4.0",
       },
       "devDependencies": {
         "typescript": "^5.7.3",
@@ -178,7 +178,7 @@
 
     "std-env": ["std-env@3.10.0", "", {}, "sha512-5GS12FdOZNliM5mAOxFRg7Ir0pWz8MdpYm6AY6VPkGpbA7ZzmbzNcBJQ0GPvvyWgcY7QAhCgf9Uy89I03faLkg=="],
 
-    "tiny-cqrs": ["tiny-cqrs@https://github.com/LedgerWriter/tiny-cqrs/archive/refs/tags/v0.2.0.tar.gz", {}],
+    "tiny-cqrs": ["tiny-cqrs@0.4.0", "", { "bin": { "tiny-cqrs": "dist/cli.js" } }, "sha512-gaUwtscOA98QAiz+AK3vEQfb3lxBTesKOADtsIkxd168g6LEw35DL8mjnBQt8+eedh373TDFG95aNCYj8s3TnA=="],
 
     "tinybench": ["tinybench@2.9.0", "", {}, "sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg=="],
 
