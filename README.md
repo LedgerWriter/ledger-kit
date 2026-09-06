@@ -6,7 +6,12 @@ package built on `tiny-cqrs` — it's an ordinary consumer of the core library, 
 `construction-kit` or `media-kit` would follow the exact same pattern with no changes to
 `tiny-cqrs` itself.
 
-**Status:** pre-1.0 (currently v0.1.0), tracking `tiny-cqrs`'s own pre-1.0 status.
+**Status:** pre-1.0 (currently v0.1.1), tracking `tiny-cqrs`'s own pre-1.0 status.
+
+This repo sets the `*-kit` naming precedent for flavor packages (see `tiny-cqrs`'s README) — that's
+a discoverability convention only, not a shared interface. There's no contract this package
+implements that a future `construction-kit` or `media-kit` would also need to; each is just an
+ordinary package depending on `tiny-cqrs`.
 
 ## Install
 
