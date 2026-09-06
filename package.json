@@ -1,21 +1,27 @@
 {
   "name": "ledger-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Accounting/finance helpers for tiny-cqrs: double-entry invariants, decimal-safe amounts, an audit-log projection helper.",
   "license": "Apache-2.0",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "exports": {
-    ".": "./src/index.ts"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepublishOnly": "bun run typecheck && bun run test && bun run build"
   },
   "dependencies": {
-    "tiny-cqrs": "https://github.com/LedgerWriter/tiny-cqrs/archive/refs/tags/v0.2.0.tar.gz"
+    "tiny-cqrs": "^0.3.0"
   },
   "devDependencies": {
     "typescript": "^5.7.3",
