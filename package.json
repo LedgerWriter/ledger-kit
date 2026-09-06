@@ -1,5 +1,5 @@
 {
-  "name": "@ledgerwriter/ledger-kit",
+  "name": "@quorumesq/ledger-kit",
   "version": "0.1.1",
   "description": "Accounting/finance helpers for tiny-cqrs: double-entry invariants, decimal-safe amounts, an audit-log projection helper.",
   "license": "Apache-2.0",
