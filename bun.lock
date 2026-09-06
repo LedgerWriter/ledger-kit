@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@quorumesq/ledger-kit",
+      "name": "@ledgerwriter/ledger-kit",
       "dependencies": {
         "tiny-cqrs": "^0.4.0",
       },
